@@ -22,10 +22,29 @@ const spectral = Spectral({
   display: "swap",
 });
 
+const TITLE = "Real Life Network — Echte Begegnungen, von Hand geknüpft";
+const DESCRIPTION =
+  "Ein lebendiges Geflecht aus echten Beziehungen — lokal verwurzelt, freiwillig, von Hand geknüpft. Das Real Life Network wächst dort, wo Menschen aufeinander zugehen.";
+
 export const metadata: Metadata = {
-  title: "Real Life Network — Echte Begegnungen, von Hand geknüpft",
-  description:
-    "Ein lebendiges Geflecht aus echten Beziehungen — lokal verwurzelt, freiwillig, von Hand geknüpft. Das Real Life Network wächst dort, wo Menschen aufeinander zugehen.",
+  metadataBase: new URL("https://reallife.network"),
+  title: TITLE,
+  description: DESCRIPTION,
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: "https://reallife.network",
+    siteName: "reallife.network",
+    title: TITLE,
+    description: DESCRIPTION,
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "reallife.network" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

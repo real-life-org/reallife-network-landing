@@ -1,0 +1,11 @@
+services:
+  reallife-network-landing:
+    image: ghcr.io/real-life-org/reallife-network-landing:latest
+    network_mode: bridge
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.reallife-network-landing.rule=Host(`reallife.network`)"
+      - "traefik.http.routers.reallife-network-landing.entrypoints=websecure"
+      - "traefik.http.routers.reallife-network-landing.tls.certresolver=letsencrypt"
+      - "traefik.http.services.reallife-network-landing.loadbalancer.server.port=3000"

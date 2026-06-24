@@ -1,0 +1,7 @@
+# Standalone project: this file makes pnpm treat this directory as its own
+# workspace root, so commands don't reach into the surrounding monorepo
+# (which has private packages not published to the npm registry).
+packages: []
+allowBuilds:
+  # sharp is only needed for next/image optimization; we use plain <img>.
+  sharp: false

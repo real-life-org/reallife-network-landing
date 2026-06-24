@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.gitignore
+README.md
+*.tsbuildinfo
+npm-debug.log*
+.DS_Store
+.vscode

@@ -14,7 +14,7 @@ export function CTA() {
           href="#hero"
           className="rounded-[14px] bg-terracotta px-[30px] py-4 text-[17px] font-bold text-cream no-underline"
         >
-          Sei dabei
+          Mach mit
         </a>
         <a
           href="#quests"

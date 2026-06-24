@@ -28,7 +28,7 @@ export function Nav() {
           href="#mitmachen"
           className="rounded-full bg-terracotta px-4 py-2 text-[14px] font-semibold text-surface no-underline"
         >
-          Sei dabei
+          Mach mit
         </a>
       </div>
     </div>

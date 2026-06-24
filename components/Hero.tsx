@@ -30,7 +30,7 @@ export function Hero() {
             href="#mitmachen"
             className="rounded-[13px] bg-forest px-[26px] py-[15px] text-[16px] font-semibold text-cream no-underline"
           >
-            Sei dabei
+            Mach mit
           </a>
           <a
             href="#wachsen"

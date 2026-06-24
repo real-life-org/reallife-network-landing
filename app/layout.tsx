@@ -22,7 +22,7 @@ const spectral = Spectral({
   display: "swap",
 });
 
-const TITLE = "Real Life Network — Ein Netz, das aus echten Begegnungen wächst";
+const TITLE = "Real Life Network — Ein Netz wächst aus echter Begegnung";
 const DESCRIPTION =
   "Ein lebendiges Geflecht aus echten Beziehungen — lokal verwurzelt, freiwillig, von Hand geknüpft. Das Real Life Network wächst dort, wo Menschen aufeinander zugehen.";
 

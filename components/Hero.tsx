@@ -15,9 +15,9 @@ export function Hero() {
         </div>
 
         <h1 className="mt-6 font-display text-[72px] font-extrabold leading-[0.96] tracking-[-0.035em]">
-          Ein Netz, das aus echten
+          Ein Netz wächst
           <br />
-          <span className="text-terracotta">Begegnungen</span> wächst
+          aus echter <span className="text-terracotta">Begegnung</span>
         </h1>
 
         <p className="mt-6 max-w-[33em] text-pretty text-[21px] leading-[1.55] text-bodytext">

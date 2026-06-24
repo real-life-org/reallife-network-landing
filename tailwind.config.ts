@@ -28,6 +28,7 @@ const config: Config = {
       fontFamily: {
         display: ["var(--font-bricolage)", "system-ui", "sans-serif"],
         sans: ["var(--font-hanken)", "system-ui", "sans-serif"],
+        spectral: ["var(--font-spectral)", "Georgia", "serif"],
       },
       maxWidth: {
         page: "1180px",

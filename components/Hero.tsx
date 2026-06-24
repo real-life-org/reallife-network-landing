@@ -1,68 +1,51 @@
 import { Knot } from "./Knot";
 
-const trust = [
-  { color: "text-sage", label: "Open Source" },
-  { color: "text-ocker", label: "Local-first & E2E-verschlüsselt" },
-  { color: "text-terracotta", label: "Web of Trust" },
-];
-
 export function Hero() {
   return (
-    <section id="hero" className="relative mx-auto max-w-page px-8 pb-[70px] pt-[90px]">
-      {/* watermark */}
+    <section id="hero" className="relative mx-auto max-w-page px-8 pb-[60px] pt-[88px]">
       <Knot
-        name="square-interlace"
-        className="pointer-events-none absolute right-[-120px] top-0 h-[620px] w-[620px] text-forest opacity-[0.07]"
+        name="medallion"
+        className="pointer-events-none absolute right-[-130px] top-[10px] h-[600px] w-[600px] text-forest opacity-[0.06]"
       />
 
-      <div className="relative max-w-[760px]">
+      <div className="relative max-w-[780px]">
         <div className="inline-flex items-center gap-[9px] rounded-full border border-line bg-surface py-1.5 pl-[9px] pr-[15px] text-[13.5px] font-semibold text-[#5a6536]">
-          <Knot name="triskele" className="h-[18px] w-[18px] text-sage" />
-          Baukasten für lokale Vernetzung
+          <Knot name="triquetra" className="h-[18px] w-[18px] text-sage" />
+          Ein lebendiges Geflecht aus Menschen
         </div>
 
         <h1 className="mt-6 font-display text-[72px] font-extrabold leading-[0.96] tracking-[-0.035em]">
-          Ein Netz aus
+          Echte Begegnungen,
           <br />
-          <span className="text-terracotta">echten</span> Verbindungen
+          von Hand <span className="text-terracotta">geknüpft</span>
         </h1>
 
-        <p className="mt-6 max-w-[32em] text-pretty text-[21px] leading-[1.55] text-bodytext">
-          Werkzeuge für Gruppen, die vor Ort gemeinsam etwas bewegen. Karte, Kalender, Feed und Gruppen — selbst
-          gehostet, dezentral, vertrauensbasiert.
+        <p className="mt-6 max-w-[33em] text-pretty text-[21px] leading-[1.55] text-bodytext">
+          Das Real Life Network wächst dort, wo Menschen aufeinander zugehen — sich kennenlernen, Vertrauen aufbauen,
+          teilen und gemeinsam etwas Lebendiges schaffen. Vor Ort, freiwillig, Beziehung für Beziehung.
         </p>
 
         <div className="mt-[34px] flex flex-wrap gap-[13px]">
           <a
-            href="#cta"
+            href="#mitmachen"
             className="rounded-[13px] bg-forest px-[26px] py-[15px] text-[16px] font-semibold text-cream no-underline"
           >
-            Community starten
+            Sei dabei
           </a>
           <a
-            href="#module"
+            href="#wachsen"
             className="rounded-[13px] border-[1.5px] border-[#CDBfa3] px-[26px] py-[15px] text-[16px] font-semibold text-ink no-underline"
           >
-            Module ansehen
+            Wie das Netz wächst
           </a>
-        </div>
-
-        <div className="mt-[34px] flex flex-wrap items-center gap-5">
-          {trust.map((t) => (
-            <div key={t.label} className="flex items-center gap-2 text-[14px] text-muted">
-              <Knot name="triquetra" className={`h-4 w-4 ${t.color}`} />
-              {t.label}
-            </div>
-          ))}
         </div>
       </div>
 
-      {/* floating logo */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/logos/pinwheel.png"
+        src="/logos/triquetra-brand.png"
         alt=""
-        className="absolute right-10 top-[130px] hidden h-[200px] w-[200px] animate-floaty object-contain drop-shadow-[0_16px_36px_rgba(62,94,46,0.2)] lg:block"
+        className="absolute right-9 top-[120px] hidden h-[210px] w-[210px] animate-floaty object-contain drop-shadow-[0_16px_36px_rgba(62,94,46,0.2)] lg:block"
       />
     </section>
   );

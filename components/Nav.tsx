@@ -1,6 +1,7 @@
 const links = [
-  { href: "#module", label: "Module" },
-  { href: "#kreislauf", label: "So funktioniert's" },
+  { href: "#vision", label: "Vision" },
+  { href: "#wachsen", label: "So wächst es" },
+  { href: "#quests", label: "Einladungen" },
   { href: "#", label: "Design System" },
 ];
 
@@ -10,7 +11,7 @@ export function Nav() {
       <div className="mx-auto flex max-w-page items-center gap-[26px] px-8 py-3.5">
         <a href="#hero" className="flex items-center gap-[11px] text-ink no-underline">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logos/pinwheel.png" alt="" className="block h-[30px] w-[30px] object-contain" />
+          <img src="/logos/triquetra-brand.png" alt="" className="block h-[30px] w-[30px] object-contain" />
           <span className="font-display text-[18px] font-bold tracking-[-0.02em]">
             reallife<span className="text-terracotta">.network</span>
           </span>
@@ -24,10 +25,10 @@ export function Nav() {
           ))}
         </nav>
         <a
-          href="#cta"
+          href="#mitmachen"
           className="rounded-full bg-terracotta px-4 py-2 text-[14px] font-semibold text-surface no-underline"
         >
-          Loslegen
+          Sei dabei
         </a>
       </div>
     </div>

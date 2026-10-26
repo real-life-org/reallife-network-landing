@@ -26,4 +26,6 @@ NixOS-Server zieht es automatisch, Traefik routet `reallife.network` darauf.
 
 ## Lizenz
 
-[MIT](LICENSE)
+Der Code steht unter [MIT](LICENSE). Ausgenommen sind Name und Logos von
+Real Life Network: `public/logos/`, `public/og.png`, `app/icon.png` und
+`app/apple-icon.png`.

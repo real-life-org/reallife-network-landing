@@ -23,3 +23,9 @@ pnpm build        # Production-Build (output: standalone)
 Push auf `main` → GitHub Action baut das Docker-Image und pusht es nach
 `ghcr.io/real-life-org/reallife-network-landing:latest`. Watchtower auf dem
 NixOS-Server zieht es automatisch, Traefik routet `reallife.network` darauf.
+
+## Lizenz
+
+Der Code steht unter [MIT](LICENSE). Ausgenommen sind Name und Logos von
+Real Life Network: `public/logos/`, `public/og.png`, `app/icon.png` und
+`app/apple-icon.png`.
